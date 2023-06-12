@@ -3,7 +3,7 @@
 </script>
 
 {#if isCustomPlayButton}
-  <div class="play-button" on:click>
+  <div class="play-button" on:click aria-label="Play" role="button">
     <slot />
   </div>
 {:else}
